@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+  <name>hilti_slam_challenge_msgs</name>
+  <version>0.0.1</version>
+  <description>Custom message types used in the Hilti SLAM Challenge.</description>
+  <maintainer email="julien.kindle@hilti.com">Julien Kindle</maintainer>
+  <license>Apache-2.0</license>
+  <url type="website">https://hilti-challenge.com/</url>
+  <author email="julien.kindle@hilti.com">Julien Kindle</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <run_depend>message_runtime</run_depend>
+  <run_depend>std_msgs</run_depend>
+
+  <export>
+  </export>
+</package>
